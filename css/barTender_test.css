@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;padding:0;font-family: 'Source Sans Pro', sans-serif;font-weight:400;}
+.ing{float: left!important;color:white!important;}
+#barTender_wrapper{width:100%;min-height:100%;background-color:#ffffff;}
+		/*---------------------Main Section--------------------------------------*/
+#barTender_section{width:80%;margin:0 auto;}
+		/*---------------------Header--------------------------------------*/
+#barTender_header{width:100%;min-height:12.3%;text-align:center;float:left;}
+#barTender_header h1{font-size:48px;font-weight:200;color:#000000;}
+nav{width:100%;color:#FFF;}
+.barTender_ul{margin:0;padding:0;width:23%;float:left;margin:1%;}
+.barTender_ul li{list-style:none;width:100%;display:block;border-bottom: 1px solid #c3a1db;}
+.barTender_ul li:last-child{border-bottom:none;}
+.barTender_ul li a{font-family:Myriad Pro;color:#c3a1db;text-decoration:none;}
+.barTender_ul li a span{color:#fff;float:right;}
+.barTender_ul li a span span{color:#c3a1db;}
+		/*---------------------Content--------------------------------------*/
+#barTender_content{width:100%;height:13%;clear:both;margin:auto;}
+#barTender_content h1{font-size:48px;font-weight:200;color:#000000;text-align:center;}
+#barTender_content_container{width:100%;height:46%;}
+.barTender_container_box{width:18%;min-height:315px;background-color:#37373a;margin-right:21px;float:left;}
+.barTender_container_box_header{width:100%;height:8%;background-color:#211d23;float:left;}
+.barTender_container_box_header h3{color:#c3a1db;text-align:center;}
+.barTender_container_box_content{width:100%;min-height:155px;float:left;}
+.barTender_container_box_content ul{margin:10px;padding:0;}
+.barTender_container_box_content ul li{display:inline-block;color:#807d89;margin-right:10px;}
+.barTender_container_box_icons{width:100%;float:left;height:60px;}
+.barTender_container_box_icons div{width: 31%;height: inherit;line-height:45px;float: left;margin: 0 1%;box-sizing: border-box;padding: 5%;}
+.barTender_container_box_icons div input{width:95%;border-radius:5px;height:35px;background-color:#FFF;text-align:center;}
+.barTender_container_box_icons div img{width:100%;height:auto;}
+		/*---------------------Footer--------------------------------------*/
+#barTender_footer{width:100%;height:17.8%;}
+.barTender_footer_button{border:0;width:36%;min-height:40px;text-align:center;margin-top:5%;margin-left:30%;border-radius:5px;background-color:#9b59b6;color:#fff;float:left;}
+.barTender_footer_button .btn{padding:10px;color:#fff;background-color:#9b59b6;font-size:20px;border:none;}
+	
+		/*---------------------Tablet View--------------------------------------*/
+@media only screen and (max-width:768px){
+#barTender_wrapper{width:100%;min-height:1280px;background-color:#000000;}
+.barTender_ul{margin:0;padding:0;width:48%;float:left;margin:0 1%;}
+.barTender_ul li{list-style:none;width:100%;display:block;border-bottom: 1px solid #c3a1db;}
+.barTender_ul li:last-child{border-bottom:none;}
+.barTender_container_box{width:29%;min-height:315px;background-color:#37373a;margin-right:21px;margin-bottom:20px;float:left;}
+.barTender_footer_button{width:98%;min-height:40px;text-align:center;margin-top:5%;margin-left:0px;border-radius:5px;background-color:#9b59b6;color:#fff;float:left;}
+nav div{ float:left; width:50%;}
+.barTender_ul{clear:both; width:90%;}
+.barTender_ul li:last-child{border-bottom:1px solid #c3a1db;}
+nav div ul:last-child li:last-child{border-bottom:none;}
+}
+		/*---------------------Phone View--------------------------------------*/
+@media only screen and (max-width:320px){
+#barTender_wrapper{width:100%;height:2340px;background-color:#000000;overflow:hidden;}
+.barTender_ul{margin:0;padding:0;width:99%;float:left;margin:1%;}
+.barTender_container_box{width:99%;min-height:315px;background-color:#37373a;margin-right:21px;float:left;}
+#barTender_footer{width:100%;height:17.8%;}
+.barTender_footer_button{width:99%;min-height:40px;text-align:center;margin-top:5%;border-radius:5px;background-color:#9b59b6;color:#fff;float:left;}
+nav div{float: left;width: 95%;}
+.barTender_ul li:last-child{border-bottom:1px solid #c3a1db;}
+nav div:first-child ul li:last-child{border-bottom:1px solid #c3a1db;}
+}
